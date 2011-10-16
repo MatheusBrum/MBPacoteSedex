@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84691B2B1444953E0091BE44 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84691B221444953E0091BE44 /* EGORefreshTableHeaderView.m */; };
+		84691B2C1444953E0091BE44 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84691B231444953E0091BE44 /* grayArrow.png */; };
+		84691B2D1444953E0091BE44 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84691B241444953E0091BE44 /* grayArrow@2x.png */; };
+		84691B2E1444953E0091BE44 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84691B251444953E0091BE44 /* blackArrow.png */; };
+		84691B2F1444953E0091BE44 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84691B261444953E0091BE44 /* blackArrow@2x.png */; };
+		84691B301444953E0091BE44 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84691B271444953E0091BE44 /* blueArrow.png */; };
+		84691B311444953E0091BE44 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84691B281444953E0091BE44 /* blueArrow@2x.png */; };
+		84691B321444953E0091BE44 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84691B291444953E0091BE44 /* whiteArrow.png */; };
+		84691B331444953E0091BE44 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84691B2A1444953E0091BE44 /* whiteArrow@2x.png */; };
+		84691B361444961D0091BE44 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84691B351444961D0091BE44 /* QuartzCore.framework */; };
+		84691B401444D7250091BE44 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84691B3E1444D7250091BE44 /* BrowserViewController.m */; };
+		84691B411444D7250091BE44 /* BrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84691B3F1444D7250091BE44 /* BrowserViewController.xib */; };
+		84691B4A1444DCD90091BE44 /* AdicionarPacoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84691B481444DCD90091BE44 /* AdicionarPacoteViewController.m */; };
+		84691B4B1444DCD90091BE44 /* AdicionarPacoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84691B491444DCD90091BE44 /* AdicionarPacoteViewController.xib */; };
+		84691B5A1444E2B30091BE44 /* ShadowedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84691B561444E2B30091BE44 /* ShadowedTableView.m */; };
+		84691B5B1444E2B30091BE44 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84691B591444E2B30091BE44 /* GradientView.m */; };
+		84CA4CF61444879E000F37F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA4CF51444879E000F37F8 /* UIKit.framework */; };
+		84CA4CF81444879E000F37F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA4CF71444879E000F37F8 /* Foundation.framework */; };
+		84CA4CFA1444879E000F37F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA4CF91444879E000F37F8 /* CoreGraphics.framework */; };
+		84CA4D001444879E000F37F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84CA4CFE1444879E000F37F8 /* InfoPlist.strings */; };
+		84CA4D021444879E000F37F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA4D011444879E000F37F8 /* main.m */; };
+		84CA4D061444879E000F37F8 /* MBPacoteSedexAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA4D051444879E000F37F8 /* MBPacoteSedexAppDelegate.m */; };
+		84CA4D091444879E000F37F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CA4D071444879E000F37F8 /* MainWindow.xib */; };
+		84CA4D0C1444879E000F37F8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA4D0B1444879E000F37F8 /* RootViewController.m */; };
+		84CA4D0F1444879E000F37F8 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CA4D0D1444879E000F37F8 /* RootViewController.xib */; };
+		84CA4D171444879E000F37F8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA4D161444879E000F37F8 /* SenTestingKit.framework */; };
+		84CA4D181444879E000F37F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA4CF51444879E000F37F8 /* UIKit.framework */; };
+		84CA4D191444879E000F37F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA4CF71444879E000F37F8 /* Foundation.framework */; };
+		84CA4D1A1444879E000F37F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA4CF91444879E000F37F8 /* CoreGraphics.framework */; };
+		84CA4D221444879E000F37F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84CA4D201444879E000F37F8 /* InfoPlist.strings */; };
+		84CA4D241444879E000F37F8 /* MBPacoteSedexTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 84CA4D231444879E000F37F8 /* MBPacoteSedexTests.h */; };
+		84CA4D261444879E000F37F8 /* MBPacoteSedexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA4D251444879E000F37F8 /* MBPacoteSedexTests.m */; };
+		84CA4D33144487B4000F37F8 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA4D30144487B4000F37F8 /* JSONKit.m */; };
+		84CA4D34144487B4000F37F8 /* MBPacoteSedex.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA4D32144487B4000F37F8 /* MBPacoteSedex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CA4D1B1444879E000F37F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CA4CE81444879E000F37F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CA4CF01444879E000F37F8;
+			remoteInfo = MBPacoteSedex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84691B211444953E0091BE44 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		84691B221444953E0091BE44 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		84691B231444953E0091BE44 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		84691B241444953E0091BE44 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		84691B251444953E0091BE44 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		84691B261444953E0091BE44 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		84691B271444953E0091BE44 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		84691B281444953E0091BE44 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		84691B291444953E0091BE44 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		84691B2A1444953E0091BE44 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		84691B351444961D0091BE44 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84691B3D1444D7250091BE44 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		84691B3E1444D7250091BE44 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		84691B3F1444D7250091BE44 /* BrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowserViewController.xib; sourceTree = "<group>"; };
+		84691B471444DCD90091BE44 /* AdicionarPacoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdicionarPacoteViewController.h; sourceTree = "<group>"; };
+		84691B481444DCD90091BE44 /* AdicionarPacoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdicionarPacoteViewController.m; sourceTree = "<group>"; };
+		84691B491444DCD90091BE44 /* AdicionarPacoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdicionarPacoteViewController.xib; sourceTree = "<group>"; };
+		84691B561444E2B30091BE44 /* ShadowedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowedTableView.m; sourceTree = "<group>"; };
+		84691B571444E2B30091BE44 /* ShadowedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowedTableView.h; sourceTree = "<group>"; };
+		84691B581444E2B30091BE44 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		84691B591444E2B30091BE44 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		84CA4CF11444879E000F37F8 /* MBPacoteSedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBPacoteSedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CA4CF51444879E000F37F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84CA4CF71444879E000F37F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84CA4CF91444879E000F37F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84CA4CFD1444879E000F37F8 /* MBPacoteSedex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBPacoteSedex-Info.plist"; sourceTree = "<group>"; };
+		84CA4CFF1444879E000F37F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84CA4D011444879E000F37F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84CA4D031444879E000F37F8 /* MBPacoteSedex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBPacoteSedex-Prefix.pch"; sourceTree = "<group>"; };
+		84CA4D041444879E000F37F8 /* MBPacoteSedexAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPacoteSedexAppDelegate.h; sourceTree = "<group>"; };
+		84CA4D051444879E000F37F8 /* MBPacoteSedexAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPacoteSedexAppDelegate.m; sourceTree = "<group>"; };
+		84CA4D081444879E000F37F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		84CA4D0A1444879E000F37F8 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		84CA4D0B1444879E000F37F8 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		84CA4D0E1444879E000F37F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		84CA4D151444879E000F37F8 /* MBPacoteSedexTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBPacoteSedexTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CA4D161444879E000F37F8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84CA4D1F1444879E000F37F8 /* MBPacoteSedexTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBPacoteSedexTests-Info.plist"; sourceTree = "<group>"; };
+		84CA4D211444879E000F37F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84CA4D231444879E000F37F8 /* MBPacoteSedexTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPacoteSedexTests.h; sourceTree = "<group>"; };
+		84CA4D251444879E000F37F8 /* MBPacoteSedexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPacoteSedexTests.m; sourceTree = "<group>"; };
+		84CA4D2F144487B4000F37F8 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		84CA4D30144487B4000F37F8 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		84CA4D31144487B4000F37F8 /* MBPacoteSedex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPacoteSedex.h; sourceTree = "<group>"; };
+		84CA4D32144487B4000F37F8 /* MBPacoteSedex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPacoteSedex.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CA4CEE1444879E000F37F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84691B361444961D0091BE44 /* QuartzCore.framework in Frameworks */,
+				84CA4CF61444879E000F37F8 /* UIKit.framework in Frameworks */,
+				84CA4CF81444879E000F37F8 /* Foundation.framework in Frameworks */,
+				84CA4CFA1444879E000F37F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA4D111444879E000F37F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA4D171444879E000F37F8 /* SenTestingKit.framework in Frameworks */,
+				84CA4D181444879E000F37F8 /* UIKit.framework in Frameworks */,
+				84CA4D191444879E000F37F8 /* Foundation.framework in Frameworks */,
+				84CA4D1A1444879E000F37F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84691B371444967C0091BE44 /* EGORefreshTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				84691B211444953E0091BE44 /* EGORefreshTableHeaderView.h */,
+				84691B221444953E0091BE44 /* EGORefreshTableHeaderView.m */,
+				84691B231444953E0091BE44 /* grayArrow.png */,
+				84691B241444953E0091BE44 /* grayArrow@2x.png */,
+				84691B251444953E0091BE44 /* blackArrow.png */,
+				84691B261444953E0091BE44 /* blackArrow@2x.png */,
+				84691B271444953E0091BE44 /* blueArrow.png */,
+				84691B281444953E0091BE44 /* blueArrow@2x.png */,
+				84691B291444953E0091BE44 /* whiteArrow.png */,
+				84691B2A1444953E0091BE44 /* whiteArrow@2x.png */,
+			);
+			name = EGORefreshTableHeaderView;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		84691B4C1444E2400091BE44 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				84CA4D2F144487B4000F37F8 /* JSONKit.h */,
+				84CA4D30144487B4000F37F8 /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		84691B4D1444E24A0091BE44 /* MBPacoteSedex */ = {
+			isa = PBXGroup;
+			children = (
+				84CA4D31144487B4000F37F8 /* MBPacoteSedex.h */,
+				84CA4D32144487B4000F37F8 /* MBPacoteSedex.m */,
+			);
+			name = MBPacoteSedex;
+			sourceTree = "<group>";
+		};
+		84691B4E1444E2530091BE44 /* MBPacoteSedexAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84CA4D041444879E000F37F8 /* MBPacoteSedexAppDelegate.h */,
+				84CA4D051444879E000F37F8 /* MBPacoteSedexAppDelegate.m */,
+				84CA4D071444879E000F37F8 /* MainWindow.xib */,
+			);
+			name = MBPacoteSedexAppDelegate;
+			sourceTree = "<group>";
+		};
+		84691B4F1444E25F0091BE44 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84CA4D0A1444879E000F37F8 /* RootViewController.h */,
+				84CA4D0B1444879E000F37F8 /* RootViewController.m */,
+				84CA4D0D1444879E000F37F8 /* RootViewController.xib */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		84691B501444E26F0091BE44 /* BrowserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84691B3D1444D7250091BE44 /* BrowserViewController.h */,
+				84691B3E1444D7250091BE44 /* BrowserViewController.m */,
+				84691B3F1444D7250091BE44 /* BrowserViewController.xib */,
+			);
+			name = BrowserViewController;
+			sourceTree = "<group>";
+		};
+		84691B511444E2770091BE44 /* AdicionarPacoteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84691B471444DCD90091BE44 /* AdicionarPacoteViewController.h */,
+				84691B481444DCD90091BE44 /* AdicionarPacoteViewController.m */,
+				84691B491444DCD90091BE44 /* AdicionarPacoteViewController.xib */,
+			);
+			name = AdicionarPacoteViewController;
+			sourceTree = "<group>";
+		};
+		84691B5C1444E2B80091BE44 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				84691B581444E2B30091BE44 /* GradientView.h */,
+				84691B591444E2B30091BE44 /* GradientView.m */,
+			);
+			name = GradientView;
+			sourceTree = "<group>";
+		};
+		84691B5D1444E2BF0091BE44 /* ShadowedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				84691B571444E2B30091BE44 /* ShadowedTableView.h */,
+				84691B561444E2B30091BE44 /* ShadowedTableView.m */,
+			);
+			name = ShadowedTableView;
+			sourceTree = "<group>";
+		};
+		84CA4CE61444879E000F37F8 = {
+			isa = PBXGroup;
+			children = (
+				84CA4CFB1444879E000F37F8 /* MBPacoteSedex */,
+				84CA4D1D1444879E000F37F8 /* MBPacoteSedexTests */,
+				84CA4CF41444879E000F37F8 /* Frameworks */,
+				84CA4CF21444879E000F37F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CA4CF21444879E000F37F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CA4CF11444879E000F37F8 /* MBPacoteSedex.app */,
+				84CA4D151444879E000F37F8 /* MBPacoteSedexTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CA4CF41444879E000F37F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84691B351444961D0091BE44 /* QuartzCore.framework */,
+				84CA4CF51444879E000F37F8 /* UIKit.framework */,
+				84CA4CF71444879E000F37F8 /* Foundation.framework */,
+				84CA4CF91444879E000F37F8 /* CoreGraphics.framework */,
+				84CA4D161444879E000F37F8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84CA4CFB1444879E000F37F8 /* MBPacoteSedex */ = {
+			isa = PBXGroup;
+			children = (
+				84691B5D1444E2BF0091BE44 /* ShadowedTableView */,
+				84691B5C1444E2B80091BE44 /* GradientView */,
+				84691B371444967C0091BE44 /* EGORefreshTableHeaderView */,
+				84691B4C1444E2400091BE44 /* JSONKit */,
+				84691B4D1444E24A0091BE44 /* MBPacoteSedex */,
+				84691B4E1444E2530091BE44 /* MBPacoteSedexAppDelegate */,
+				84691B4F1444E25F0091BE44 /* RootViewController */,
+				84691B501444E26F0091BE44 /* BrowserViewController */,
+				84691B511444E2770091BE44 /* AdicionarPacoteViewController */,
+				84CA4CFC1444879E000F37F8 /* Supporting Files */,
+			);
+			path = MBPacoteSedex;
+			sourceTree = "<group>";
+		};
+		84CA4CFC1444879E000F37F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CA4CFD1444879E000F37F8 /* MBPacoteSedex-Info.plist */,
+				84CA4CFE1444879E000F37F8 /* InfoPlist.strings */,
+				84CA4D011444879E000F37F8 /* main.m */,
+				84CA4D031444879E000F37F8 /* MBPacoteSedex-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84CA4D1D1444879E000F37F8 /* MBPacoteSedexTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CA4D231444879E000F37F8 /* MBPacoteSedexTests.h */,
+				84CA4D251444879E000F37F8 /* MBPacoteSedexTests.m */,
+				84CA4D1E1444879E000F37F8 /* Supporting Files */,
+			);
+			path = MBPacoteSedexTests;
+			sourceTree = "<group>";
+		};
+		84CA4D1E1444879E000F37F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CA4D1F1444879E000F37F8 /* MBPacoteSedexTests-Info.plist */,
+				84CA4D201444879E000F37F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CA4CF01444879E000F37F8 /* MBPacoteSedex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CA4D291444879E000F37F8 /* Build configuration list for PBXNativeTarget "MBPacoteSedex" */;
+			buildPhases = (
+				84CA4CED1444879E000F37F8 /* Sources */,
+				84CA4CEE1444879E000F37F8 /* Frameworks */,
+				84CA4CEF1444879E000F37F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBPacoteSedex;
+			productName = MBPacoteSedex;
+			productReference = 84CA4CF11444879E000F37F8 /* MBPacoteSedex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CA4D141444879E000F37F8 /* MBPacoteSedexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CA4D2C1444879E000F37F8 /* Build configuration list for PBXNativeTarget "MBPacoteSedexTests" */;
+			buildPhases = (
+				84CA4D101444879E000F37F8 /* Sources */,
+				84CA4D111444879E000F37F8 /* Frameworks */,
+				84CA4D121444879E000F37F8 /* Resources */,
+				84CA4D131444879E000F37F8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CA4D1C1444879E000F37F8 /* PBXTargetDependency */,
+			);
+			name = MBPacoteSedexTests;
+			productName = MBPacoteSedexTests;
+			productReference = 84CA4D151444879E000F37F8 /* MBPacoteSedexTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CA4CE81444879E000F37F8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84CA4CEB1444879E000F37F8 /* Build configuration list for PBXProject "MBPacoteSedex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84CA4CE61444879E000F37F8;
+			productRefGroup = 84CA4CF21444879E000F37F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CA4CF01444879E000F37F8 /* MBPacoteSedex */,
+				84CA4D141444879E000F37F8 /* MBPacoteSedexTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CA4CEF1444879E000F37F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA4D001444879E000F37F8 /* InfoPlist.strings in Resources */,
+				84CA4D091444879E000F37F8 /* MainWindow.xib in Resources */,
+				84CA4D0F1444879E000F37F8 /* RootViewController.xib in Resources */,
+				84691B2C1444953E0091BE44 /* grayArrow.png in Resources */,
+				84691B2D1444953E0091BE44 /* grayArrow@2x.png in Resources */,
+				84691B2E1444953E0091BE44 /* blackArrow.png in Resources */,
+				84691B2F1444953E0091BE44 /* blackArrow@2x.png in Resources */,
+				84691B301444953E0091BE44 /* blueArrow.png in Resources */,
+				84691B311444953E0091BE44 /* blueArrow@2x.png in Resources */,
+				84691B321444953E0091BE44 /* whiteArrow.png in Resources */,
+				84691B331444953E0091BE44 /* whiteArrow@2x.png in Resources */,
+				84691B411444D7250091BE44 /* BrowserViewController.xib in Resources */,
+				84691B4B1444DCD90091BE44 /* AdicionarPacoteViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA4D121444879E000F37F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA4D221444879E000F37F8 /* InfoPlist.strings in Resources */,
+				84CA4D241444879E000F37F8 /* MBPacoteSedexTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84CA4D131444879E000F37F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CA4CED1444879E000F37F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA4D021444879E000F37F8 /* main.m in Sources */,
+				84CA4D061444879E000F37F8 /* MBPacoteSedexAppDelegate.m in Sources */,
+				84CA4D0C1444879E000F37F8 /* RootViewController.m in Sources */,
+				84CA4D33144487B4000F37F8 /* JSONKit.m in Sources */,
+				84CA4D34144487B4000F37F8 /* MBPacoteSedex.m in Sources */,
+				84691B2B1444953E0091BE44 /* EGORefreshTableHeaderView.m in Sources */,
+				84691B401444D7250091BE44 /* BrowserViewController.m in Sources */,
+				84691B4A1444DCD90091BE44 /* AdicionarPacoteViewController.m in Sources */,
+				84691B5A1444E2B30091BE44 /* ShadowedTableView.m in Sources */,
+				84691B5B1444E2B30091BE44 /* GradientView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA4D101444879E000F37F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA4D261444879E000F37F8 /* MBPacoteSedexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CA4D1C1444879E000F37F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CA4CF01444879E000F37F8 /* MBPacoteSedex */;
+			targetProxy = 84CA4D1B1444879E000F37F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CA4CFE1444879E000F37F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CA4CFF1444879E000F37F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84CA4D071444879E000F37F8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CA4D081444879E000F37F8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		84CA4D0D1444879E000F37F8 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CA4D0E1444879E000F37F8 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		84CA4D201444879E000F37F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CA4D211444879E000F37F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CA4D271444879E000F37F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84CA4D281444879E000F37F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CA4D2A1444879E000F37F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBPacoteSedex/MBPacoteSedex-Prefix.pch";
+				INFOPLIST_FILE = "MBPacoteSedex/MBPacoteSedex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84CA4D2B1444879E000F37F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBPacoteSedex/MBPacoteSedex-Prefix.pch";
+				INFOPLIST_FILE = "MBPacoteSedex/MBPacoteSedex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84CA4D2D1444879E000F37F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBPacoteSedex.app/MBPacoteSedex";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBPacoteSedex/MBPacoteSedex-Prefix.pch";
+				INFOPLIST_FILE = "MBPacoteSedexTests/MBPacoteSedexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84CA4D2E1444879E000F37F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBPacoteSedex.app/MBPacoteSedex";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBPacoteSedex/MBPacoteSedex-Prefix.pch";
+				INFOPLIST_FILE = "MBPacoteSedexTests/MBPacoteSedexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CA4CEB1444879E000F37F8 /* Build configuration list for PBXProject "MBPacoteSedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CA4D271444879E000F37F8 /* Debug */,
+				84CA4D281444879E000F37F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CA4D291444879E000F37F8 /* Build configuration list for PBXNativeTarget "MBPacoteSedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CA4D2A1444879E000F37F8 /* Debug */,
+				84CA4D2B1444879E000F37F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CA4D2C1444879E000F37F8 /* Build configuration list for PBXNativeTarget "MBPacoteSedexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CA4D2D1444879E000F37F8 /* Debug */,
+				84CA4D2E1444879E000F37F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CA4CE81444879E000F37F8 /* Project object */;
+}
